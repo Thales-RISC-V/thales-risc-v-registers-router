@@ -39,6 +39,17 @@ object RegsMerger {
       output.t5 := inputs(0).t5 | inputs(1).t5
       output.t6 := inputs(0).t6 | inputs(1).t6
       output.pc := inputs(0).pc | inputs(1).pc
+      output.interrupt := inputs(0).interrupt | inputs(1).interrupt
+      output.interrupt_cause := inputs(0).interrupt_cause | inputs(1).interrupt_cause
+      output.time := inputs(0).time | inputs(1).time
+      output.debug := inputs(0).debug | inputs(1).debug
+      output.isa := inputs(0).isa | inputs(1).isa
+      output.sd := inputs(0).sd | inputs(1).sd
+      output.sd_rv32 := inputs(0).sd_rv32 | inputs(1).sd_rv32
+      output.mpp := inputs(0).mpp | inputs(1).mpp
+      output.spp := inputs(0).spp | inputs(1).spp
+      output.mpie := inputs(0).mpie | inputs(1).mpie
+      output.mie := inputs(0).mie | inputs(1).mie
   }
 }
 
