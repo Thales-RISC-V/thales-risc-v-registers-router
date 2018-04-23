@@ -46,4 +46,5 @@ class RegisterPorts extends Bundle{
   val spp = Output(Bool())
   val mpie = Output(Bool())
   val mie = Output(Bool())
+  val evec = Output(UInt(32.W))
 }

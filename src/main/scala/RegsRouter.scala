@@ -50,6 +50,7 @@ object RegsMerger {
       output.spp := inputs(0).spp | inputs(1).spp
       output.mpie := inputs(0).mpie | inputs(1).mpie
       output.mie := inputs(0).mie | inputs(1).mie
+      output.evec := inputs(0).evec | inputs(1).evec
   }
 }
 
